@@ -69,6 +69,7 @@ header .academy {
   flex-direction: row;
   background-color: rgb(170, 172, 175);
   padding-top: 64px;
+  min-width: 850px; 
 }
 
 .box.one .picture {
