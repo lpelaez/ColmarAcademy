@@ -3,7 +3,8 @@
 body {
   display: flex;
   font-family: 'Open Sans', sans-serif;
-
+  color: rgb(80, 83, 89);
+  flex-direction: column;
 
 }
 
@@ -19,9 +20,8 @@ header {
   justify-content: flex-start;
   align-items: center;
   color: rgb(80, 83, 89);
-
-
-
+  border-bottom: 1px solid black;
+  background-color: white;
 }
 
 header .logo {
@@ -37,7 +37,6 @@ nav {
 }
 
 nav span {
-
   color: rgb(80, 83, 89);
 }
 
@@ -45,12 +44,66 @@ header .colmar {
   font-weight: bold;
   font-size: 20px;
   line-height: 32px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 header .academy {
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
-  margin-top: 30px;
+  margin-top: 15px;
+}
+
+/* Big Box 1 */
+
+.box {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box.one {
+  flex-direction: row;
+  background-color: rgb(170, 172, 175);
+  padding-top: 64px;
+}
+
+.box.one .picture {
+  display: flex;
+  height: 450px;
+  width: 592px;
+  border: 24px;
+}
+
+.box.one .picture img {
+  height: 402px;
+  width: auto;
+  padding: 24px;
+}
+
+.box.one .learn {
+  text-align: left;
+}
+
+.learn h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+
+.button {
+  display: flex;
+  background-color: rgb(80, 83, 89);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 240px;
+  margin-top: 24px;
+
 }
