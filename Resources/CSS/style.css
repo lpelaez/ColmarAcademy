@@ -3,8 +3,7 @@
 body {
   display: flex;
   font-family: 'Open Sans', sans-serif;
-  flex-direction: column;
-  align-items: center;
+
 
 }
 
@@ -14,8 +13,18 @@ header {
   height: 64px;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 1;
   justify-content: flex-start;
 
+
+}
+
+header .logo {
+  padding-left: 24px;
+  padding-top: 20px;
 }
 
 nav {
@@ -24,9 +33,9 @@ nav {
   padding-right: 30px;
 }
 
-nav span a {
+nav span {
   font-family: 'Open Sans', sans-serif;
-  color: rgb(80, 83, 89); 
+  color: rgb(80, 83, 89);
 }
 
 header .colmar {
