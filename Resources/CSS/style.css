@@ -1,0 +1,36 @@
+/* Universal styles */
+
+body {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 30px;
+}
+
+header .colmar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+header .academy {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+}
