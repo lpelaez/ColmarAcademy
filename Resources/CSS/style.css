@@ -12,12 +12,14 @@ header {
   display: flex;
   height: 64px;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
   margin: 0px;
   padding: 0px;
   position: fixed;
   z-index: 1;
   justify-content: flex-start;
+  align-items: center;
+  color: rgb(80, 83, 89);
+
 
 
 }
@@ -31,22 +33,24 @@ nav {
   text-align: right;
   flex-grow: 1;
   padding-right: 30px;
+  margin-top: 10px;
 }
 
 nav span {
-  font-family: 'Open Sans', sans-serif;
+
   color: rgb(80, 83, 89);
 }
 
 header .colmar {
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 32px;
+  margin-top: 30px;
 }
 
 header .academy {
-  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+  margin-top: 30px;
 }
