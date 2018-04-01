@@ -5,6 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: rgb(80, 83, 89);
   flex-direction: column;
+  align-items: center;
 
 }
 
@@ -59,7 +60,8 @@ header .academy {
 .box {
   display: flex;
   height: 450px;
-  width: 100%;
+  width: 960px;
+  min-width: 850px;
   align-items: center;
   justify-content: center;
 
@@ -69,7 +71,7 @@ header .academy {
   flex-direction: row;
   background-color: rgb(170, 172, 175);
   padding-top: 64px;
-  min-width: 850px; 
+  min-width: 850px;
 }
 
 .box.one .picture {
@@ -93,6 +95,7 @@ header .academy {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 24px;
+  width: 350px;
 }
 
 .button {
@@ -106,5 +109,97 @@ header .academy {
   height: 40px;
   width: 240px;
   margin-top: 24px;
+}
 
+/* Big Box 2 */
+
+.box.two {
+  flex-direction: row;
+}
+
+.box.two .leftpanel {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+.box.two .rightpanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftpanel img {
+  height: 300px;
+  width: auto;
+  padding: 32px 24px 24px 24px; ;
+}
+
+.leftpanel h2 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+
+.leftpanel h5 {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.leftpanel h6 {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.rightpanel {
+  width: 40%;
+  height: 100%;
+}
+
+.smallpanel {
+  display: flex;
+  width: 100%;
+  height: 140px;
+  flex-direction: row;
+  border: 0.1px solid rgb(170, 172, 175);
+  justify-content: center;
+  margin: 2px;
+}
+
+.panelpicture {
+  display: flex;
+  width: 35%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.smallpanel img {
+  display: flex;
+  height: auto;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallpanel.top {
+  margin-top: 15px;
+}
+
+.panelinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.panelinfo h3 {
+  font-weight: bold;
+  padding: 8px 0px;
+
+}
+
+.panelinfo h5 {
+  padding: 8px 0px;
+  font-size: 12px;
 }
