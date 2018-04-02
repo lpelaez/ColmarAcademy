@@ -203,3 +203,16 @@ header .academy {
   padding: 8px 0px;
   font-size: 12px;
 }
+
+/* Box 3 */
+
+.box.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+
+
+/* Box 4 */
