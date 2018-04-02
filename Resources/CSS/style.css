@@ -188,6 +188,11 @@ header ul {
   justify-content: center;
   align-items: center;
 }
+
+.mobilepanelpicture {
+  display: none;
+}
+
 .smallpanel img {
   display: flex;
   height: auto;
@@ -216,6 +221,11 @@ header ul {
 .panelinfo h5 {
   padding: 8px 0px;
   font-size: 12px;
+}
+
+.panelinfo h5 a {
+  text-decoration: none;
+  color: rgb(86, 145, 239);
 }
 
 .smallpanel.bottom {
@@ -459,4 +469,64 @@ footer .links h5 a {
     margin: 20px 20px 32px 55px;
   }
 
+  .box.two {
+    height: auto;
+  }
+  .box.two .leftpanel {
+    display: none;
+  }
+  .panelpicture {
+    display: none;
+  }
+  .mobilepanelpicture {
+    display: flex;
+    justify-content: center;
+    width: 384px;
+    height: 163px;
+  }
+  .box.two .smallpanel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 0px;
+    padding-bottom: 32px;
+  }
+  .box.two .smallpanel.top {
+    padding-top: 16px;
+  }
+  .box.two .panelinfo {
+    padding-left: 24px;
+  }
+  .box.two .panelinfo h5 a {
+    text-decoration: none;
+    color: rgb(86, 145, 239);
+  }
+
+  .box.three {
+    height: auto;
+    background-color: white;
+  }
+  .box.three .panelbox {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .box.three .panelbox .coursepanel {
+    height: 50px;
+    width: 300px;
+    margin: 8px;
+    background-color: rgb(170, 172, 175);
+    text-align: center;
+  }
+  .box.three .panelbox .coursepanel h3 {
+    text-align: center;
+  }
+  .box.three .coursepanel .top {
+    display: none;
+  }
+  .box.three .coursepanel .bottom h4 {
+    display: none;
+  }
 }
