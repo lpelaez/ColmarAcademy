@@ -420,9 +420,36 @@ footer .links h5 a {
   header .colmar, header .academy  {
     display: none;
   }
-  header nav {
+  header nav, header .logo {
     display: none;
   }
   header ul {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 15px;
+  }
+
+  .box {
+    width: 100%
+  }
+  .box.one {
+    flex-direction: column;
+    width: 100%;
+  }
+  .box.one .picture {
+    width: 100%;
+    height: auto;
+  }
+  .box.one .picture img {
+    width: auto;
+    height: auto;
+  }
+  .box.one .learn .button{
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+  }
+
 }
