@@ -37,8 +37,10 @@ nav {
   margin-top: 10px;
 }
 
-nav span {
+nav span a {
   color: rgb(80, 83, 89);
+  text-decoration: none;
+  padding-left: 10px;
 }
 
 header .colmar {
@@ -112,11 +114,17 @@ header .academy {
   margin-top: 24px;
 }
 
+.button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
 /* Big Box 2 */
 
 .box.two {
   flex-direction: row;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .box.two .leftpanel {
@@ -366,4 +374,38 @@ header .academy {
 
 .smallpanel .bottomtoo {
   border: hidden;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  border: 1px solid rgb(170, 172, 175);
+}
+
+footer .copyright {
+  text-align: left;
+  padding-left: 24px;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  padding-right: 24px;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+footer .links h5 a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: rgb(80, 83, 89);
 }
