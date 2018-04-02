@@ -57,6 +57,10 @@ header .academy {
   margin-top: 15px;
 }
 
+header ul {
+  display: none;
+}
+
 /* Big Box 1 */
 
 .box {
@@ -408,4 +412,17 @@ footer .links h5 a {
   padding-left: 5px;
   text-decoration: none;
   color: rgb(80, 83, 89);
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 500px) {
+  header .colmar, header .academy  {
+    display: none;
+  }
+  header nav {
+    display: none;
+  }
+  header ul {
+  display: inline-block;
 }
