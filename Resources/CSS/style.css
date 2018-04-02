@@ -210,13 +210,16 @@ header .academy {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(170, 172, 175);
+  height: auto;
+  padding: 32px 32px 48px 32px;
 }
 
 .box.three .practice {
   text-align: center;
   height: 20px;
   width: 100%;
-  margin: 32px;
+  margin-bottom: 32px;
 }
 
 .box.three .practice h2 {
@@ -226,8 +229,8 @@ header .academy {
 
 .panelbox {
   display: flex;
-  height: 320px;
-  width: 350px; ;
+  height: 432px;
+  width: 650px;
   flex-wrap: wrap;
 
 }
@@ -235,29 +238,40 @@ header .academy {
 .coursepanel {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  width: 100px;
+  height: 200px;
+  width: 175px;
+  margin: 16px;
+  background-color: white;
 
 }
 
-.cousepanel .top {
+.coursepanel .top {
   display: flex;
   height: 40%;
+  width: auto;
 }
 
 .coursepanel .top img {
   height: auto;
-  width: auto;
+  width: 100%
 
 }
 
 .coursepanel .bottom {
-  padding: 16px;
+  margin: 16px;
   text-align: left;
+  height: 60%;
 }
 
 .coursepanel .bottom h3 {
   font-weight: bold;
+  opacity: 0.9;
+}
+
+.coursepanel .bottom h4 {
+  font-size: 12px;
+  padding-top: 8px;
+  opacity: 0.9;
 }
 
 
