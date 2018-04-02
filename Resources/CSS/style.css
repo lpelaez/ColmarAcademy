@@ -64,6 +64,7 @@ header .academy {
   min-width: 850px;
   align-items: center;
   justify-content: center;
+  border: 1px solid rgb(67, 69, 71);
 
 }
 
@@ -115,6 +116,7 @@ header .academy {
 
 .box.two {
   flex-direction: row;
+  padding-bottom: 10px; 
 }
 
 .box.two .leftpanel {
@@ -159,7 +161,7 @@ header .academy {
 
 .smallpanel {
   display: flex;
-  width: 100%;
+  width: 370px;
   height: 140px;
   flex-direction: row;
   border: 0.1px solid rgb(170, 172, 175);
@@ -204,6 +206,10 @@ header .academy {
   font-size: 12px;
 }
 
+.smallpanel.bottom {
+  background-color: rgb(170, 172, 175);
+}
+
 /* Box 3 */
 
 .box.three {
@@ -212,7 +218,7 @@ header .academy {
   align-items: center;
   background-color: rgb(170, 172, 175);
   height: auto;
-  padding: 32px 32px 48px 32px;
+  padding: 32px 0px 48px 0px;
 }
 
 .box.three .practice {
@@ -274,6 +280,90 @@ header .academy {
   opacity: 0.9;
 }
 
-
-
 /* Box 4 */
+
+.box.four {
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.box.four .practice {
+  width: 100%;
+  height: 20px;
+  padding: 32px;
+}
+
+.box.four .practice h2 {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.box.four .main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+
+
+
+}
+
+.main .leftpanel {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 0px 24px 32px 24px;
+
+}
+
+.main .leftpanel .video {
+  width: 100%;
+  height: auto;
+
+}
+
+.main .leftpanel .video video {
+  width: 100%;
+  height: auto;
+}
+
+.main .leftpanel .text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 24px;
+}
+
+.main .leftpanel .text h3 {
+  font-weight: bold;
+  padding-bottom: 8px;
+
+}
+
+.main .leftpanel .text h4 {
+  font-size: 12px;
+}
+
+.main .rightpanel {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.main .rightpanel .toptoo {
+  background-color: rgb(170, 172, 175);
+}
+
+.main .rightpanel .smallpanel {
+  width: 360px;
+  margin-right: 5px;
+}
+
+.smallpanel .bottomtoo {
+  border: hidden;
+}
