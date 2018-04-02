@@ -443,6 +443,7 @@ footer .links h5 a {
 
   .box {
     min-width: 500px;
+    border: 1px solid rgba(67, 69, 71, 0.2)
   }
   .box.one {
     flex-direction: column;
@@ -527,6 +528,30 @@ footer .links h5 a {
     display: none;
   }
   .box.three .coursepanel .bottom h4 {
+    display: none;
+  }
+
+  .box.four {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .box.four .rightpanel {
+    display: none;
+  }
+  .box.four .leftpanel {
+    width: 100%;
+  }
+  .box.four .leftpanel .video {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px; 
+  }
+  .box.four .leftpanel .text {
+    display: none;
+  }
+
+  footer h5 a {
     display: none;
   }
 }
