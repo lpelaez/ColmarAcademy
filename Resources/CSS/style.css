@@ -40,7 +40,18 @@ nav {
 nav span a {
   color: rgb(80, 83, 89);
   text-decoration: none;
-  padding-left: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+nav span {
+  text-align: center;
+}
+
+nav span:hover {
+  background-color: rgb(156, 184, 229);
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 
 header .colmar {
@@ -116,6 +127,12 @@ header ul {
   height: 40px;
   width: 240px;
   margin-top: 24px;
+}
+
+.button:hover {
+  background-color: rgb(156, 184, 229);
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 
 .button a {
@@ -325,6 +342,10 @@ header ul {
   margin-bottom: 32px;
 }
 
+.box.four .practice .mobilepractice {
+  display: none;
+}
+
 .box.four .main {
   display: flex;
   flex-direction: row;
@@ -469,6 +490,11 @@ footer .links h5 a {
     align-items: center;
     margin: 20px 20px 32px 55px;
   }
+  .box.one .learn .button:hover {
+    background-color: rgb(156, 184, 229);
+    transition-property: background-color;
+    transition-duration: 1s;
+  }
 
   .box.two {
     height: auto;
@@ -521,6 +547,12 @@ footer .links h5 a {
     background-color: rgb(170, 172, 175);
     text-align: center;
   }
+  .box.three .panelbox .coursepanel:hover {
+    background-color: white;
+  }
+  .box.three .panelbox .coursepanel:active {
+    background-color: black;
+  }
   .box.three .panelbox .coursepanel h3 {
     text-align: center;
   }
@@ -545,13 +577,25 @@ footer .links h5 a {
   .box.four .leftpanel .video {
     width: 100%;
     height: auto;
-    padding-bottom: 24px; 
+    padding-bottom: 24px;
   }
   .box.four .leftpanel .text {
     display: none;
   }
+  .box.four .practice h2 {
+    display: none;
+  }
+  .box.four .practice .mobilepractice {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 32px;
+  }
 
-  footer h5 a {
+  footer .links h5 a {
     display: none;
   }
 }
