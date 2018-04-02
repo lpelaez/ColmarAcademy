@@ -432,24 +432,31 @@ footer .links h5 a {
   }
 
   .box {
-    width: 100%
+    min-width: 500px;
   }
   .box.one {
     flex-direction: column;
     width: 100%;
+    height: auto;
   }
   .box.one .picture {
     width: 100%;
     height: auto;
   }
+
   .box.one .picture img {
-    width: auto;
-    height: auto;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .box.one .learn {
+    padding-top: 32px;
   }
   .box.one .learn .button{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px; 
+    margin: 20px 20px 32px 55px;
   }
 
 }
