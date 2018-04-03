@@ -461,7 +461,7 @@ footer .links h5 a {
 
 /* Mobile */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px;) {
   header .colmar, header .academy  {
     display: none;
   }
